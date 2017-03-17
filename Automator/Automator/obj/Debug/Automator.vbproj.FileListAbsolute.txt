@@ -1,0 +1,10 @@
+c:\users\cyro4s\documents\visual studio 2015\Projects\Automator\Automator\bin\Debug\Automator.exe
+c:\users\cyro4s\documents\visual studio 2015\Projects\Automator\Automator\bin\Debug\Automator.pdb
+c:\users\cyro4s\documents\visual studio 2015\Projects\Automator\Automator\bin\Debug\Automator.xml
+c:\users\cyro4s\documents\visual studio 2015\Projects\Automator\Automator\obj\Debug\Automator.vbprojResolveAssemblyReference.cache
+c:\users\cyro4s\documents\visual studio 2015\Projects\Automator\Automator\obj\Debug\Automator.MainForm.resources
+c:\users\cyro4s\documents\visual studio 2015\Projects\Automator\Automator\obj\Debug\Automator.Resources.resources
+c:\users\cyro4s\documents\visual studio 2015\Projects\Automator\Automator\obj\Debug\Automator.vbproj.GenerateResource.Cache
+c:\users\cyro4s\documents\visual studio 2015\Projects\Automator\Automator\obj\Debug\Automator.exe
+c:\users\cyro4s\documents\visual studio 2015\Projects\Automator\Automator\obj\Debug\Automator.xml
+c:\users\cyro4s\documents\visual studio 2015\Projects\Automator\Automator\obj\Debug\Automator.pdb

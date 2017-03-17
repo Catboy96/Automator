@@ -1,0 +1,10 @@
+C:\Users\j2415\Desktop\Automator\Automator\bin\Release\Automator.exe
+C:\Users\j2415\Desktop\Automator\Automator\bin\Release\Automator.pdb
+C:\Users\j2415\Desktop\Automator\Automator\bin\Release\Automator.xml
+C:\Users\j2415\Desktop\Automator\Automator\obj\Release\Automator.vbprojResolveAssemblyReference.cache
+C:\Users\j2415\Desktop\Automator\Automator\obj\Release\Automator.MainForm.resources
+C:\Users\j2415\Desktop\Automator\Automator\obj\Release\Automator.Resources.resources
+C:\Users\j2415\Desktop\Automator\Automator\obj\Release\Automator.vbproj.GenerateResource.Cache
+C:\Users\j2415\Desktop\Automator\Automator\obj\Release\Automator.exe
+C:\Users\j2415\Desktop\Automator\Automator\obj\Release\Automator.xml
+C:\Users\j2415\Desktop\Automator\Automator\obj\Release\Automator.pdb
