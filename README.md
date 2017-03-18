@@ -10,7 +10,7 @@ As everyone knows, Ducky Script can not easily convert into Digispark Arduino pr
 * Print "Hello Digispark?" Type "Hello Digispark?" & Click "Add"
 * ...And more    
   
-*Screenshots appended: (Only Simplified Chinese. English support will complete before Mar. 20, 2017.)*  
+*Screenshots appended: (In Simplified Chinese. English is now supported.)*  
 ![](https://raw.githubusercontent.com/CYRO4S/Automator/master/Automator/Automator/Resources/Automator_zh-CN.PNG)
   
 ## Compiling  
