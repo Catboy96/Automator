@@ -8,3 +8,17 @@ C:\Users\j2415\Desktop\Automator\Automator\obj\Release\Automator.vbproj.Generate
 C:\Users\j2415\Desktop\Automator\Automator\obj\Release\Automator.exe
 C:\Users\j2415\Desktop\Automator\Automator\obj\Release\Automator.xml
 C:\Users\j2415\Desktop\Automator\Automator\obj\Release\Automator.pdb
+D:\Projects\Visual Studio\Automator\Automator\bin\Release\Automator.exe
+D:\Projects\Visual Studio\Automator\Automator\bin\Release\Automator.pdb
+D:\Projects\Visual Studio\Automator\Automator\bin\Release\Automator.xml
+D:\Projects\Visual Studio\Automator\Automator\obj\Release\Automator.vbprojResolveAssemblyReference.cache
+D:\Projects\Visual Studio\Automator\Automator\obj\Release\Automator.MainForm.resources
+D:\Projects\Visual Studio\Automator\Automator\obj\Release\Automator.Resources.resources
+D:\Projects\Visual Studio\Automator\Automator\obj\Release\Automator.vbproj.GenerateResource.Cache
+D:\Projects\Visual Studio\Automator\Automator\obj\Release\Automator.exe
+D:\Projects\Visual Studio\Automator\Automator\obj\Release\Automator.xml
+D:\Projects\Visual Studio\Automator\Automator\obj\Release\Automator.pdb
+D:\Projects\Visual Studio\Automator\Automator\bin\Release\en\Automator.resources.dll
+D:\Projects\Visual Studio\Automator\Automator\obj\Release\Automator.MainForm.en.resources
+D:\Projects\Visual Studio\Automator\Automator\obj\Release\en\Automator.resources.dll
+D:\Projects\Visual Studio\Automator\Automator\obj\Release\Automator.Resources.en.resources

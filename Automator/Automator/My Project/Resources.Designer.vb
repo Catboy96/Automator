@@ -89,5 +89,14 @@ Namespace My.Resources
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
+        
+        '''<summary>
+        '''  查找类似 创建新程序？所有未存储的内容将丢失。 的本地化字符串。
+        '''</summary>
+        Friend ReadOnly Property UI_NEW_FILE_WARNING() As String
+            Get
+                Return ResourceManager.GetString("UI_NEW_FILE_WARNING", resourceCulture)
+            End Get
+        End Property
     End Module
 End Namespace

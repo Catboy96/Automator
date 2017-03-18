@@ -117,1778 +117,497 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="SplitContainer1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="SplitContainer1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 31</value>
-  </data>
-  <data name="txt.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="txt.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Consolas, 12pt</value>
-  </data>
-  <data name="txt.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="txt.Multiline" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="txt.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
-    <value>Vertical</value>
-  </data>
   <data name="txt.Size" type="System.Drawing.Size, System.Drawing">
-    <value>610, 639</value>
+    <value>612, 628</value>
   </data>
-  <data name="txt.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;txt.Name" xml:space="preserve">
-    <value>txt</value>
-  </data>
-  <data name="&gt;&gt;txt.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txt.Parent" xml:space="preserve">
-    <value>SplitContainer1.Panel1</value>
-  </data>
-  <data name="&gt;&gt;txt.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;SplitContainer1.Panel1.Name" xml:space="preserve">
-    <value>SplitContainer1.Panel1</value>
-  </data>
-  <data name="&gt;&gt;SplitContainer1.Panel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;SplitContainer1.Panel1.Parent" xml:space="preserve">
-    <value>SplitContainer1</value>
-  </data>
-  <data name="&gt;&gt;SplitContainer1.Panel1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="radLoop.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <data name="radLoop.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
   <data name="radLoop.Location" type="System.Drawing.Point, System.Drawing">
-    <value>31, 342</value>
+    <value>32, 336</value>
   </data>
   <data name="radLoop.Size" type="System.Drawing.Size, System.Drawing">
-    <value>60, 24</value>
-  </data>
-  <data name="radLoop.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+    <value>68, 24</value>
   </data>
   <data name="radLoop.Text" xml:space="preserve">
-    <value>循环</value>
-  </data>
-  <data name="&gt;&gt;radLoop.Name" xml:space="preserve">
-    <value>radLoop</value>
-  </data>
-  <data name="&gt;&gt;radLoop.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;radLoop.Parent" xml:space="preserve">
-    <value>tabGeneral</value>
-  </data>
-  <data name="&gt;&gt;radLoop.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>Loop</value>
   </data>
   <data name="radOnce.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <data name="radOnce.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
   <data name="radOnce.Location" type="System.Drawing.Point, System.Drawing">
-    <value>31, 308</value>
+    <value>32, 302</value>
   </data>
   <data name="radOnce.Size" type="System.Drawing.Size, System.Drawing">
-    <value>60, 24</value>
-  </data>
-  <data name="radOnce.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+    <value>68, 24</value>
   </data>
   <data name="radOnce.Text" xml:space="preserve">
-    <value>单次</value>
-  </data>
-  <data name="&gt;&gt;radOnce.Name" xml:space="preserve">
-    <value>radOnce</value>
-  </data>
-  <data name="&gt;&gt;radOnce.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;radOnce.Parent" xml:space="preserve">
-    <value>tabGeneral</value>
-  </data>
-  <data name="&gt;&gt;radOnce.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>Once</value>
   </data>
   <data name="txtInitDelay.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
   <data name="txtInitDelay.Location" type="System.Drawing.Point, System.Drawing">
-    <value>31, 99</value>
-  </data>
-  <data name="txtInitDelay.Size" type="System.Drawing.Size, System.Drawing">
-    <value>312, 27</value>
-  </data>
-  <data name="txtInitDelay.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="txtInitDelay.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Center</value>
-  </data>
-  <data name="&gt;&gt;txtInitDelay.Name" xml:space="preserve">
-    <value>txtInitDelay</value>
-  </data>
-  <data name="&gt;&gt;txtInitDelay.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtInitDelay.Parent" xml:space="preserve">
-    <value>tabGeneral</value>
-  </data>
-  <data name="&gt;&gt;txtInitDelay.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>32, 93</value>
   </data>
   <data name="Button2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
   <data name="Button2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>30, 140</value>
-  </data>
-  <data name="Button2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>312, 50</value>
-  </data>
-  <data name="Button2.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+    <value>31, 134</value>
   </data>
   <data name="Button2.Text" xml:space="preserve">
-    <value>添加</value>
-  </data>
-  <data name="&gt;&gt;Button2.Name" xml:space="preserve">
-    <value>Button2</value>
-  </data>
-  <data name="&gt;&gt;Button2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Button2.Parent" xml:space="preserve">
-    <value>tabGeneral</value>
-  </data>
-  <data name="&gt;&gt;Button2.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>Add</value>
   </data>
   <data name="Button1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
   <data name="Button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>31, 140</value>
-  </data>
-  <data name="Button1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>312, 50</value>
-  </data>
-  <data name="Button1.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="Button1.Text" xml:space="preserve">
-    <value>添加</value>
-  </data>
-  <data name="&gt;&gt;Button1.Name" xml:space="preserve">
-    <value>Button1</value>
-  </data>
-  <data name="&gt;&gt;Button1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Button1.Parent" xml:space="preserve">
-    <value>tabGeneral</value>
-  </data>
-  <data name="&gt;&gt;Button1.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>32, 134</value>
   </data>
   <data name="Label4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <data name="Label4.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Label4.Font" type="System.Drawing.Font, System.Drawing">
-    <value>微软雅黑, 8pt</value>
-  </data>
   <data name="Label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>26, 262</value>
+    <value>27, 256</value>
   </data>
   <data name="Label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>218, 40</value>
-  </data>
-  <data name="Label4.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+    <value>282, 40</value>
   </data>
   <data name="Label4.Text" xml:space="preserve">
-    <value>程序是只执行一次，
-还是重复执行直至拔出USB设备？</value>
-  </data>
-  <data name="&gt;&gt;Label4.Name" xml:space="preserve">
-    <value>Label4</value>
-  </data>
-  <data name="&gt;&gt;Label4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Label4.Parent" xml:space="preserve">
-    <value>tabGeneral</value>
-  </data>
-  <data name="&gt;&gt;Label4.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>The program will be executed only once,
+Or executed repeatedly?</value>
   </data>
   <data name="Label3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <data name="Label3.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Label3.Font" type="System.Drawing.Font, System.Drawing">
-    <value>微软雅黑, 11pt</value>
-  </data>
   <data name="Label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>25, 234</value>
+    <value>26, 228</value>
   </data>
   <data name="Label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>88, 25</value>
-  </data>
-  <data name="Label3.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+    <value>160, 25</value>
   </data>
   <data name="Label3.Text" xml:space="preserve">
-    <value>执行方式</value>
-  </data>
-  <data name="&gt;&gt;Label3.Name" xml:space="preserve">
-    <value>Label3</value>
-  </data>
-  <data name="&gt;&gt;Label3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Label3.Parent" xml:space="preserve">
-    <value>tabGeneral</value>
-  </data>
-  <data name="&gt;&gt;Label3.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>Execution mode</value>
   </data>
   <data name="Label2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <data name="Label2.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Label2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>微软雅黑, 8pt</value>
-  </data>
   <data name="Label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>26, 53</value>
+    <value>27, 47</value>
   </data>
   <data name="Label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>204, 40</value>
-  </data>
-  <data name="Label2.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+    <value>326, 40</value>
   </data>
   <data name="Label2.Text" xml:space="preserve">
-    <value>程序开始前的等待时间，
-通常用于计算机识别USB设备。</value>
-  </data>
-  <data name="&gt;&gt;Label2.Name" xml:space="preserve">
-    <value>Label2</value>
-  </data>
-  <data name="&gt;&gt;Label2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Label2.Parent" xml:space="preserve">
-    <value>tabGeneral</value>
-  </data>
-  <data name="&gt;&gt;Label2.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>The waiting time before the program starts,
+Usually used for PC dectecting the USB devices.</value>
   </data>
   <data name="Label1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <data name="Label1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Label1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>微软雅黑, 11pt</value>
-  </data>
   <data name="Label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>25, 25</value>
+    <value>26, 19</value>
   </data>
   <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>88, 25</value>
-  </data>
-  <data name="Label1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+    <value>118, 25</value>
   </data>
   <data name="Label1.Text" xml:space="preserve">
-    <value>初始延时</value>
-  </data>
-  <data name="&gt;&gt;Label1.Name" xml:space="preserve">
-    <value>Label1</value>
-  </data>
-  <data name="&gt;&gt;Label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Label1.Parent" xml:space="preserve">
-    <value>tabGeneral</value>
-  </data>
-  <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="tabGeneral.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 29</value>
-  </data>
-  <data name="tabGeneral.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
+    <value>Initial delay</value>
   </data>
   <data name="tabGeneral.Size" type="System.Drawing.Size, System.Drawing">
-    <value>378, 606</value>
-  </data>
-  <data name="tabGeneral.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+    <value>380, 595</value>
   </data>
   <data name="tabGeneral.Text" xml:space="preserve">
-    <value>通用</value>
-  </data>
-  <data name="&gt;&gt;tabGeneral.Name" xml:space="preserve">
-    <value>tabGeneral</value>
-  </data>
-  <data name="&gt;&gt;tabGeneral.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tabGeneral.Parent" xml:space="preserve">
-    <value>TabControl1</value>
-  </data>
-  <data name="&gt;&gt;tabGeneral.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>General</value>
   </data>
   <data name="txtPrintln.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
   <data name="txtPrintln.Location" type="System.Drawing.Point, System.Drawing">
-    <value>31, 291</value>
-  </data>
-  <data name="txtPrintln.Size" type="System.Drawing.Size, System.Drawing">
-    <value>313, 27</value>
-  </data>
-  <data name="txtPrintln.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="txtPrintln.Text" xml:space="preserve">
-    <value>Hello Digispark!</value>
-  </data>
-  <data name="&gt;&gt;txtPrintln.Name" xml:space="preserve">
-    <value>txtPrintln</value>
-  </data>
-  <data name="&gt;&gt;txtPrintln.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtPrintln.Parent" xml:space="preserve">
-    <value>tabType</value>
-  </data>
-  <data name="&gt;&gt;txtPrintln.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>32, 285</value>
   </data>
   <data name="txtPrint.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
   <data name="txtPrint.Location" type="System.Drawing.Point, System.Drawing">
-    <value>30, 83</value>
-  </data>
-  <data name="txtPrint.Size" type="System.Drawing.Size, System.Drawing">
-    <value>313, 27</value>
-  </data>
-  <data name="txtPrint.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="txtPrint.Text" xml:space="preserve">
-    <value>Hello Digispark!</value>
-  </data>
-  <data name="&gt;&gt;txtPrint.Name" xml:space="preserve">
-    <value>txtPrint</value>
-  </data>
-  <data name="&gt;&gt;txtPrint.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtPrint.Parent" xml:space="preserve">
-    <value>tabType</value>
-  </data>
-  <data name="&gt;&gt;txtPrint.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>31, 77</value>
   </data>
   <data name="Button4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
   <data name="Button4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>31, 326</value>
-  </data>
-  <data name="Button4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>312, 50</value>
-  </data>
-  <data name="Button4.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+    <value>32, 320</value>
   </data>
   <data name="Button4.Text" xml:space="preserve">
-    <value>添加</value>
-  </data>
-  <data name="&gt;&gt;Button4.Name" xml:space="preserve">
-    <value>Button4</value>
-  </data>
-  <data name="&gt;&gt;Button4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Button4.Parent" xml:space="preserve">
-    <value>tabType</value>
-  </data>
-  <data name="&gt;&gt;Button4.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>Add</value>
   </data>
   <data name="Label8.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <data name="Label8.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Label8.Font" type="System.Drawing.Font, System.Drawing">
-    <value>微软雅黑, 8pt</value>
-  </data>
   <data name="Label8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>28, 241</value>
+    <value>29, 235</value>
   </data>
   <data name="Label8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>261, 40</value>
-  </data>
-  <data name="Label8.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+    <value>224, 40</value>
   </data>
   <data name="Label8.Text" xml:space="preserve">
-    <value>将模拟键盘一字一字地输入下面的内容，
-最后会插入一个换行符。</value>
-  </data>
-  <data name="&gt;&gt;Label8.Name" xml:space="preserve">
-    <value>Label8</value>
-  </data>
-  <data name="&gt;&gt;Label8.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Label8.Parent" xml:space="preserve">
-    <value>tabType</value>
-  </data>
-  <data name="&gt;&gt;Label8.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>Print this character by character.
+Then goto a new line.</value>
   </data>
   <data name="Button3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
   <data name="Button3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>30, 118</value>
-  </data>
-  <data name="Button3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>312, 50</value>
-  </data>
-  <data name="Button3.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+    <value>31, 112</value>
   </data>
   <data name="Button3.Text" xml:space="preserve">
-    <value>添加</value>
-  </data>
-  <data name="&gt;&gt;Button3.Name" xml:space="preserve">
-    <value>Button3</value>
-  </data>
-  <data name="&gt;&gt;Button3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Button3.Parent" xml:space="preserve">
-    <value>tabType</value>
-  </data>
-  <data name="&gt;&gt;Button3.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>Add</value>
   </data>
   <data name="Label7.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <data name="Label7.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Label7.Font" type="System.Drawing.Font, System.Drawing">
-    <value>微软雅黑, 11pt</value>
-  </data>
   <data name="Label7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>26, 209</value>
+    <value>27, 203</value>
   </data>
   <data name="Label7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>145, 25</value>
-  </data>
-  <data name="Label7.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+    <value>94, 25</value>
   </data>
   <data name="Label7.Text" xml:space="preserve">
-    <value>键入字符并换行</value>
-  </data>
-  <data name="&gt;&gt;Label7.Name" xml:space="preserve">
-    <value>Label7</value>
-  </data>
-  <data name="&gt;&gt;Label7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Label7.Parent" xml:space="preserve">
-    <value>tabType</value>
-  </data>
-  <data name="&gt;&gt;Label7.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>Print line</value>
   </data>
   <data name="Label5.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <data name="Label5.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Label5.Font" type="System.Drawing.Font, System.Drawing">
-    <value>微软雅黑, 8pt</value>
-  </data>
   <data name="Label5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>27, 56</value>
+    <value>28, 50</value>
   </data>
   <data name="Label5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>247, 20</value>
-  </data>
-  <data name="Label5.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+    <value>224, 20</value>
   </data>
   <data name="Label5.Text" xml:space="preserve">
-    <value>将模拟键盘一字一字地输入下面的内容</value>
-  </data>
-  <data name="&gt;&gt;Label5.Name" xml:space="preserve">
-    <value>Label5</value>
-  </data>
-  <data name="&gt;&gt;Label5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Label5.Parent" xml:space="preserve">
-    <value>tabType</value>
-  </data>
-  <data name="&gt;&gt;Label5.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>Print this character by character.</value>
   </data>
   <data name="Label6.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <data name="Label6.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Label6.Font" type="System.Drawing.Font, System.Drawing">
-    <value>微软雅黑, 11pt</value>
-  </data>
   <data name="Label6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>25, 25</value>
+    <value>26, 19</value>
   </data>
   <data name="Label6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>88, 25</value>
-  </data>
-  <data name="Label6.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+    <value>55, 25</value>
   </data>
   <data name="Label6.Text" xml:space="preserve">
-    <value>键入字符</value>
-  </data>
-  <data name="&gt;&gt;Label6.Name" xml:space="preserve">
-    <value>Label6</value>
-  </data>
-  <data name="&gt;&gt;Label6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Label6.Parent" xml:space="preserve">
-    <value>tabType</value>
-  </data>
-  <data name="&gt;&gt;Label6.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>Print</value>
   </data>
   <data name="tabType.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 29</value>
   </data>
-  <data name="tabType.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
   <data name="tabType.Size" type="System.Drawing.Size, System.Drawing">
-    <value>378, 606</value>
-  </data>
-  <data name="tabType.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+    <value>380, 595</value>
   </data>
   <data name="tabType.Text" xml:space="preserve">
-    <value>键入</value>
-  </data>
-  <data name="&gt;&gt;tabType.Name" xml:space="preserve">
-    <value>tabType</value>
-  </data>
-  <data name="&gt;&gt;tabType.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tabType.Parent" xml:space="preserve">
-    <value>TabControl1</value>
-  </data>
-  <data name="&gt;&gt;tabType.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>Print</value>
   </data>
   <data name="cboSAK.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <data name="cboSAK.Items" xml:space="preserve">
-    <value>无</value>
-  </data>
-  <data name="cboSAK.Items1" xml:space="preserve">
-    <value>左Control</value>
-  </data>
-  <data name="cboSAK.Items2" xml:space="preserve">
-    <value>左Shift</value>
-  </data>
-  <data name="cboSAK.Items3" xml:space="preserve">
-    <value>左Alter / Option</value>
-  </data>
-  <data name="cboSAK.Items4" xml:space="preserve">
-    <value>右Control</value>
-  </data>
-  <data name="cboSAK.Items5" xml:space="preserve">
-    <value>右Shift</value>
-  </data>
-  <data name="cboSAK.Items6" xml:space="preserve">
-    <value>右Alter / Option</value>
-  </data>
-  <data name="cboSAK.Items7" xml:space="preserve">
-    <value>左GUI</value>
-  </data>
-  <data name="cboSAK.Items8" xml:space="preserve">
-    <value>右GUI</value>
-  </data>
   <data name="cboSAK.Location" type="System.Drawing.Point, System.Drawing">
-    <value>30, 364</value>
-  </data>
-  <data name="cboSAK.Size" type="System.Drawing.Size, System.Drawing">
-    <value>312, 28</value>
-  </data>
-  <data name="cboSAK.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="&gt;&gt;cboSAK.Name" xml:space="preserve">
-    <value>cboSAK</value>
-  </data>
-  <data name="&gt;&gt;cboSAK.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cboSAK.Parent" xml:space="preserve">
-    <value>tabSend</value>
-  </data>
-  <data name="&gt;&gt;cboSAK.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>31, 358</value>
   </data>
   <data name="cboPK.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <data name="cboPK.Items" xml:space="preserve">
-    <value>回车</value>
-  </data>
-  <data name="cboPK.Items1" xml:space="preserve">
-    <value>空格</value>
-  </data>
-  <data name="cboPK.Items2" xml:space="preserve">
-    <value>F1</value>
-  </data>
-  <data name="cboPK.Items3" xml:space="preserve">
-    <value>F2</value>
-  </data>
-  <data name="cboPK.Items4" xml:space="preserve">
-    <value>F3</value>
-  </data>
-  <data name="cboPK.Items5" xml:space="preserve">
-    <value>F4</value>
-  </data>
-  <data name="cboPK.Items6" xml:space="preserve">
-    <value>F5</value>
-  </data>
-  <data name="cboPK.Items7" xml:space="preserve">
-    <value>F6</value>
-  </data>
-  <data name="cboPK.Items8" xml:space="preserve">
-    <value>F7</value>
-  </data>
-  <data name="cboPK.Items9" xml:space="preserve">
-    <value>F8</value>
-  </data>
-  <data name="cboPK.Items10" xml:space="preserve">
-    <value>F9</value>
-  </data>
-  <data name="cboPK.Items11" xml:space="preserve">
-    <value>F10</value>
-  </data>
-  <data name="cboPK.Items12" xml:space="preserve">
-    <value>F11</value>
-  </data>
-  <data name="cboPK.Items13" xml:space="preserve">
-    <value>F12</value>
-  </data>
-  <data name="cboPK.Items14" xml:space="preserve">
-    <value>A</value>
-  </data>
-  <data name="cboPK.Items15" xml:space="preserve">
-    <value>B</value>
-  </data>
-  <data name="cboPK.Items16" xml:space="preserve">
-    <value>C</value>
-  </data>
-  <data name="cboPK.Items17" xml:space="preserve">
-    <value>D</value>
-  </data>
-  <data name="cboPK.Items18" xml:space="preserve">
-    <value>E</value>
-  </data>
-  <data name="cboPK.Items19" xml:space="preserve">
-    <value>F</value>
-  </data>
-  <data name="cboPK.Items20" xml:space="preserve">
-    <value>G</value>
-  </data>
-  <data name="cboPK.Items21" xml:space="preserve">
-    <value>H</value>
-  </data>
-  <data name="cboPK.Items22" xml:space="preserve">
-    <value>I</value>
-  </data>
-  <data name="cboPK.Items23" xml:space="preserve">
-    <value>J</value>
-  </data>
-  <data name="cboPK.Items24" xml:space="preserve">
-    <value>K</value>
-  </data>
-  <data name="cboPK.Items25" xml:space="preserve">
-    <value>L</value>
-  </data>
-  <data name="cboPK.Items26" xml:space="preserve">
-    <value>M</value>
-  </data>
-  <data name="cboPK.Items27" xml:space="preserve">
-    <value>N</value>
-  </data>
-  <data name="cboPK.Items28" xml:space="preserve">
-    <value>O</value>
-  </data>
-  <data name="cboPK.Items29" xml:space="preserve">
-    <value>P</value>
-  </data>
-  <data name="cboPK.Items30" xml:space="preserve">
-    <value>Q</value>
-  </data>
-  <data name="cboPK.Items31" xml:space="preserve">
-    <value>R</value>
-  </data>
-  <data name="cboPK.Items32" xml:space="preserve">
-    <value>S</value>
-  </data>
-  <data name="cboPK.Items33" xml:space="preserve">
-    <value>T</value>
-  </data>
-  <data name="cboPK.Items34" xml:space="preserve">
-    <value>U</value>
-  </data>
-  <data name="cboPK.Items35" xml:space="preserve">
-    <value>V</value>
-  </data>
-  <data name="cboPK.Items36" xml:space="preserve">
-    <value>W</value>
-  </data>
-  <data name="cboPK.Items37" xml:space="preserve">
-    <value>X</value>
-  </data>
-  <data name="cboPK.Items38" xml:space="preserve">
-    <value>Y</value>
-  </data>
-  <data name="cboPK.Items39" xml:space="preserve">
-    <value>Z</value>
-  </data>
-  <data name="cboPK.Items40" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="cboPK.Items41" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="cboPK.Items42" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="cboPK.Items43" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="cboPK.Items44" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="cboPK.Items45" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="cboPK.Items46" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="cboPK.Items47" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="cboPK.Items48" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="cboPK.Items49" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="cboPK.Location" type="System.Drawing.Point, System.Drawing">
-    <value>30, 423</value>
-  </data>
-  <data name="cboPK.Size" type="System.Drawing.Size, System.Drawing">
-    <value>312, 28</value>
-  </data>
-  <data name="cboPK.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="&gt;&gt;cboPK.Name" xml:space="preserve">
-    <value>cboPK</value>
-  </data>
-  <data name="&gt;&gt;cboPK.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cboPK.Parent" xml:space="preserve">
-    <value>tabSend</value>
-  </data>
-  <data name="&gt;&gt;cboPK.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>31, 417</value>
   </data>
   <data name="cboFAK.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <data name="cboFAK.Items" xml:space="preserve">
-    <value>左Control</value>
-  </data>
-  <data name="cboFAK.Items1" xml:space="preserve">
-    <value>左Shift</value>
-  </data>
-  <data name="cboFAK.Items2" xml:space="preserve">
-    <value>左Alter / Option</value>
-  </data>
-  <data name="cboFAK.Items3" xml:space="preserve">
-    <value>右Control</value>
-  </data>
-  <data name="cboFAK.Items4" xml:space="preserve">
-    <value>右Shift</value>
-  </data>
-  <data name="cboFAK.Items5" xml:space="preserve">
-    <value>右Alter / Option</value>
-  </data>
-  <data name="cboFAK.Items6" xml:space="preserve">
-    <value>左GUI</value>
-  </data>
-  <data name="cboFAK.Items7" xml:space="preserve">
-    <value>右GUI</value>
-  </data>
   <data name="cboFAK.Location" type="System.Drawing.Point, System.Drawing">
-    <value>30, 305</value>
-  </data>
-  <data name="cboFAK.Size" type="System.Drawing.Size, System.Drawing">
-    <value>312, 28</value>
-  </data>
-  <data name="cboFAK.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="&gt;&gt;cboFAK.Name" xml:space="preserve">
-    <value>cboFAK</value>
-  </data>
-  <data name="&gt;&gt;cboFAK.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cboFAK.Parent" xml:space="preserve">
-    <value>tabSend</value>
-  </data>
-  <data name="&gt;&gt;cboFAK.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>31, 299</value>
   </data>
   <data name="cboSingle.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <data name="cboSingle.Items" xml:space="preserve">
-    <value>左GUI</value>
-  </data>
-  <data name="cboSingle.Items1" xml:space="preserve">
-    <value>右GUI</value>
-  </data>
-  <data name="cboSingle.Items2" xml:space="preserve">
-    <value>回车</value>
-  </data>
-  <data name="cboSingle.Items3" xml:space="preserve">
-    <value>空格</value>
-  </data>
-  <data name="cboSingle.Items4" xml:space="preserve">
-    <value>左箭头</value>
-  </data>
   <data name="cboSingle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>30, 80</value>
-  </data>
-  <data name="cboSingle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>312, 28</value>
-  </data>
-  <data name="cboSingle.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="&gt;&gt;cboSingle.Name" xml:space="preserve">
-    <value>cboSingle</value>
-  </data>
-  <data name="&gt;&gt;cboSingle.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cboSingle.Parent" xml:space="preserve">
-    <value>tabSend</value>
-  </data>
-  <data name="&gt;&gt;cboSingle.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>31, 74</value>
   </data>
   <data name="Button12.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
   <data name="Button12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>30, 118</value>
-  </data>
-  <data name="Button12.Size" type="System.Drawing.Size, System.Drawing">
-    <value>312, 50</value>
-  </data>
-  <data name="Button12.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
+    <value>31, 112</value>
   </data>
   <data name="Button12.Text" xml:space="preserve">
-    <value>添加</value>
-  </data>
-  <data name="&gt;&gt;Button12.Name" xml:space="preserve">
-    <value>Button12</value>
-  </data>
-  <data name="&gt;&gt;Button12.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Button12.Parent" xml:space="preserve">
-    <value>tabSend</value>
-  </data>
-  <data name="&gt;&gt;Button12.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>Add</value>
   </data>
   <data name="Label19.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <data name="Label19.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Label19.Font" type="System.Drawing.Font, System.Drawing">
-    <value>微软雅黑, 8pt</value>
-  </data>
   <data name="Label19.Location" type="System.Drawing.Point, System.Drawing">
-    <value>26, 340</value>
+    <value>27, 334</value>
   </data>
   <data name="Label19.Size" type="System.Drawing.Size, System.Drawing">
-    <value>93, 20</value>
-  </data>
-  <data name="Label19.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
+    <value>115, 20</value>
   </data>
   <data name="Label19.Text" xml:space="preserve">
-    <value>+ 第二辅助键</value>
-  </data>
-  <data name="&gt;&gt;Label19.Name" xml:space="preserve">
-    <value>Label19</value>
-  </data>
-  <data name="&gt;&gt;Label19.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Label19.Parent" xml:space="preserve">
-    <value>tabSend</value>
-  </data>
-  <data name="&gt;&gt;Label19.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>+ 2nd assist key</value>
   </data>
   <data name="Button11.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
   <data name="Button11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>30, 461</value>
-  </data>
-  <data name="Button11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>312, 50</value>
-  </data>
-  <data name="Button11.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
+    <value>31, 455</value>
   </data>
   <data name="Button11.Text" xml:space="preserve">
-    <value>添加</value>
-  </data>
-  <data name="&gt;&gt;Button11.Name" xml:space="preserve">
-    <value>Button11</value>
-  </data>
-  <data name="&gt;&gt;Button11.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Button11.Parent" xml:space="preserve">
-    <value>tabSend</value>
-  </data>
-  <data name="&gt;&gt;Button11.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>Add</value>
   </data>
   <data name="Label18.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <data name="Label18.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Label18.Font" type="System.Drawing.Font, System.Drawing">
-    <value>微软雅黑, 8pt</value>
-  </data>
   <data name="Label18.Location" type="System.Drawing.Point, System.Drawing">
-    <value>26, 399</value>
+    <value>27, 393</value>
   </data>
   <data name="Label18.Size" type="System.Drawing.Size, System.Drawing">
-    <value>51, 20</value>
-  </data>
-  <data name="Label18.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
+    <value>101, 20</value>
   </data>
   <data name="Label18.Text" xml:space="preserve">
-    <value>+ 主键</value>
-  </data>
-  <data name="&gt;&gt;Label18.Name" xml:space="preserve">
-    <value>Label18</value>
-  </data>
-  <data name="&gt;&gt;Label18.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Label18.Parent" xml:space="preserve">
-    <value>tabSend</value>
-  </data>
-  <data name="&gt;&gt;Label18.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>+ Primary key</value>
   </data>
   <data name="Label17.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <data name="Label17.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Label17.Font" type="System.Drawing.Font, System.Drawing">
-    <value>微软雅黑, 8pt</value>
-  </data>
   <data name="Label17.Location" type="System.Drawing.Point, System.Drawing">
-    <value>26, 256</value>
+    <value>27, 250</value>
   </data>
   <data name="Label17.Size" type="System.Drawing.Size, System.Drawing">
-    <value>163, 40</value>
-  </data>
-  <data name="Label17.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
+    <value>127, 40</value>
   </data>
   <data name="Label17.Text" xml:space="preserve">
-    <value>向计算机发送键位组合。
-第一辅助键</value>
-  </data>
-  <data name="&gt;&gt;Label17.Name" xml:space="preserve">
-    <value>Label17</value>
-  </data>
-  <data name="&gt;&gt;Label17.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Label17.Parent" xml:space="preserve">
-    <value>tabSend</value>
-  </data>
-  <data name="&gt;&gt;Label17.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>Press combo keys
+1st assist key</value>
   </data>
   <data name="Label16.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <data name="Label16.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Label16.Font" type="System.Drawing.Font, System.Drawing">
-    <value>微软雅黑, 11pt</value>
-  </data>
   <data name="Label16.Location" type="System.Drawing.Point, System.Drawing">
-    <value>25, 226</value>
+    <value>26, 220</value>
   </data>
   <data name="Label16.Size" type="System.Drawing.Size, System.Drawing">
-    <value>126, 25</value>
-  </data>
-  <data name="Label16.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
+    <value>174, 25</value>
   </data>
   <data name="Label16.Text" xml:space="preserve">
-    <value>发送键位组合</value>
-  </data>
-  <data name="&gt;&gt;Label16.Name" xml:space="preserve">
-    <value>Label16</value>
-  </data>
-  <data name="&gt;&gt;Label16.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Label16.Parent" xml:space="preserve">
-    <value>tabSend</value>
-  </data>
-  <data name="&gt;&gt;Label16.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>Send combo keys</value>
   </data>
   <data name="Label14.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <data name="Label14.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Label14.Font" type="System.Drawing.Font, System.Drawing">
-    <value>微软雅黑, 8pt</value>
-  </data>
   <data name="Label14.Location" type="System.Drawing.Point, System.Drawing">
-    <value>26, 55</value>
+    <value>27, 49</value>
   </data>
   <data name="Label14.Size" type="System.Drawing.Size, System.Drawing">
-    <value>163, 20</value>
-  </data>
-  <data name="Label14.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
+    <value>132, 20</value>
   </data>
   <data name="Label14.Text" xml:space="preserve">
-    <value>模拟键盘按下特殊按键。</value>
-  </data>
-  <data name="&gt;&gt;Label14.Name" xml:space="preserve">
-    <value>Label14</value>
-  </data>
-  <data name="&gt;&gt;Label14.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Label14.Parent" xml:space="preserve">
-    <value>tabSend</value>
-  </data>
-  <data name="&gt;&gt;Label14.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>Press a special key</value>
   </data>
   <data name="Label15.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <data name="Label15.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Label15.Font" type="System.Drawing.Font, System.Drawing">
-    <value>微软雅黑, 11pt</value>
-  </data>
   <data name="Label15.Location" type="System.Drawing.Point, System.Drawing">
-    <value>25, 25</value>
+    <value>26, 19</value>
   </data>
   <data name="Label15.Size" type="System.Drawing.Size, System.Drawing">
-    <value>88, 25</value>
-  </data>
-  <data name="Label15.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
+    <value>95, 25</value>
   </data>
   <data name="Label15.Text" xml:space="preserve">
-    <value>发送按键</value>
-  </data>
-  <data name="&gt;&gt;Label15.Name" xml:space="preserve">
-    <value>Label15</value>
-  </data>
-  <data name="&gt;&gt;Label15.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Label15.Parent" xml:space="preserve">
-    <value>tabSend</value>
-  </data>
-  <data name="&gt;&gt;Label15.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>Send key</value>
   </data>
   <data name="tabSend.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 29</value>
   </data>
   <data name="tabSend.Size" type="System.Drawing.Size, System.Drawing">
-    <value>378, 606</value>
-  </data>
-  <data name="tabSend.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+    <value>380, 595</value>
   </data>
   <data name="tabSend.Text" xml:space="preserve">
-    <value>发送</value>
-  </data>
-  <data name="&gt;&gt;tabSend.Name" xml:space="preserve">
-    <value>tabSend</value>
-  </data>
-  <data name="&gt;&gt;tabSend.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tabSend.Parent" xml:space="preserve">
-    <value>TabControl1</value>
-  </data>
-  <data name="&gt;&gt;tabSend.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>Send</value>
   </data>
   <data name="txtDelay.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
   <data name="txtDelay.Location" type="System.Drawing.Point, System.Drawing">
-    <value>31, 127</value>
-  </data>
-  <data name="txtDelay.Size" type="System.Drawing.Size, System.Drawing">
-    <value>312, 27</value>
-  </data>
-  <data name="txtDelay.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="txtDelay.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Center</value>
-  </data>
-  <data name="&gt;&gt;txtDelay.Name" xml:space="preserve">
-    <value>txtDelay</value>
-  </data>
-  <data name="&gt;&gt;txtDelay.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtDelay.Parent" xml:space="preserve">
-    <value>tabDelay</value>
-  </data>
-  <data name="&gt;&gt;txtDelay.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>32, 121</value>
   </data>
   <data name="Button9.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
   <data name="Button9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>30, 416</value>
-  </data>
-  <data name="Button9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>312, 50</value>
-  </data>
-  <data name="Button9.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+    <value>31, 410</value>
   </data>
   <data name="Button9.Text" xml:space="preserve">
-    <value>延时 半秒</value>
-  </data>
-  <data name="&gt;&gt;Button9.Name" xml:space="preserve">
-    <value>Button9</value>
-  </data>
-  <data name="&gt;&gt;Button9.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Button9.Parent" xml:space="preserve">
-    <value>tabDelay</value>
-  </data>
-  <data name="&gt;&gt;Button9.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>Delay 500ms</value>
   </data>
   <data name="Button8.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
   <data name="Button8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>30, 472</value>
-  </data>
-  <data name="Button8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>312, 50</value>
-  </data>
-  <data name="Button8.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+    <value>31, 466</value>
   </data>
   <data name="Button8.Text" xml:space="preserve">
-    <value>延时 一秒</value>
-  </data>
-  <data name="&gt;&gt;Button8.Name" xml:space="preserve">
-    <value>Button8</value>
-  </data>
-  <data name="&gt;&gt;Button8.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Button8.Parent" xml:space="preserve">
-    <value>tabDelay</value>
-  </data>
-  <data name="&gt;&gt;Button8.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>Delay 1s</value>
   </data>
   <data name="Button7.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
   <data name="Button7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>30, 360</value>
-  </data>
-  <data name="Button7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>312, 50</value>
-  </data>
-  <data name="Button7.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+    <value>31, 354</value>
   </data>
   <data name="Button7.Text" xml:space="preserve">
-    <value>延时 100毫秒</value>
-  </data>
-  <data name="&gt;&gt;Button7.Name" xml:space="preserve">
-    <value>Button7</value>
-  </data>
-  <data name="&gt;&gt;Button7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Button7.Parent" xml:space="preserve">
-    <value>tabDelay</value>
-  </data>
-  <data name="&gt;&gt;Button7.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>Delay 100ms</value>
   </data>
   <data name="Button6.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
   <data name="Button6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>30, 304</value>
-  </data>
-  <data name="Button6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>312, 50</value>
-  </data>
-  <data name="Button6.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+    <value>31, 298</value>
   </data>
   <data name="Button6.Text" xml:space="preserve">
-    <value>延时 50毫秒</value>
-  </data>
-  <data name="&gt;&gt;Button6.Name" xml:space="preserve">
-    <value>Button6</value>
-  </data>
-  <data name="&gt;&gt;Button6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Button6.Parent" xml:space="preserve">
-    <value>tabDelay</value>
-  </data>
-  <data name="&gt;&gt;Button6.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>Delay 50ms</value>
   </data>
   <data name="Button5.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
   <data name="Button5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>30, 168</value>
-  </data>
-  <data name="Button5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>312, 50</value>
-  </data>
-  <data name="Button5.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+    <value>31, 162</value>
   </data>
   <data name="Button5.Text" xml:space="preserve">
-    <value>添加</value>
-  </data>
-  <data name="&gt;&gt;Button5.Name" xml:space="preserve">
-    <value>Button5</value>
-  </data>
-  <data name="&gt;&gt;Button5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Button5.Parent" xml:space="preserve">
-    <value>tabDelay</value>
-  </data>
-  <data name="&gt;&gt;Button5.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>Add</value>
   </data>
   <data name="Label9.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <data name="Label9.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Label9.Font" type="System.Drawing.Font, System.Drawing">
-    <value>微软雅黑, 8pt</value>
-  </data>
   <data name="Label9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>26, 55</value>
+    <value>27, 49</value>
   </data>
   <data name="Label9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>191, 60</value>
-  </data>
-  <data name="Label9.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+    <value>360, 60</value>
   </data>
   <data name="Label9.Text" xml:space="preserve">
-    <value>执行下一语句前的等待时间，
-通常用在两个键盘操作之间，
-等待操作系统完成上一步骤。</value>
-  </data>
-  <data name="&gt;&gt;Label9.Name" xml:space="preserve">
-    <value>Label9</value>
-  </data>
-  <data name="&gt;&gt;Label9.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Label9.Parent" xml:space="preserve">
-    <value>tabDelay</value>
-  </data>
-  <data name="&gt;&gt;Label9.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>The waiting time before the next action.
+Usually used between two keyboard actions in order
+ to wait for system complete previous action.</value>
   </data>
   <data name="Label11.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <data name="Label11.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Label11.Font" type="System.Drawing.Font, System.Drawing">
-    <value>微软雅黑, 11pt</value>
-  </data>
   <data name="Label11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>25, 268</value>
+    <value>26, 262</value>
   </data>
   <data name="Label11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>88, 25</value>
-  </data>
-  <data name="Label11.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+    <value>196, 25</value>
   </data>
   <data name="Label11.Text" xml:space="preserve">
-    <value>快捷插入</value>
-  </data>
-  <data name="&gt;&gt;Label11.Name" xml:space="preserve">
-    <value>Label11</value>
-  </data>
-  <data name="&gt;&gt;Label11.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Label11.Parent" xml:space="preserve">
-    <value>tabDelay</value>
-  </data>
-  <data name="&gt;&gt;Label11.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>Quick insert options</value>
   </data>
   <data name="Label10.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <data name="Label10.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Label10.Font" type="System.Drawing.Font, System.Drawing">
-    <value>微软雅黑, 11pt</value>
-  </data>
   <data name="Label10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>25, 25</value>
+    <value>26, 19</value>
   </data>
   <data name="Label10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 25</value>
-  </data>
-  <data name="Label10.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+    <value>63, 25</value>
   </data>
   <data name="Label10.Text" xml:space="preserve">
-    <value>延时</value>
-  </data>
-  <data name="&gt;&gt;Label10.Name" xml:space="preserve">
-    <value>Label10</value>
-  </data>
-  <data name="&gt;&gt;Label10.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Label10.Parent" xml:space="preserve">
-    <value>tabDelay</value>
-  </data>
-  <data name="&gt;&gt;Label10.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>Delay</value>
   </data>
   <data name="tabDelay.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 29</value>
   </data>
   <data name="tabDelay.Size" type="System.Drawing.Size, System.Drawing">
-    <value>378, 606</value>
-  </data>
-  <data name="tabDelay.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+    <value>380, 595</value>
   </data>
   <data name="tabDelay.Text" xml:space="preserve">
-    <value>延时</value>
-  </data>
-  <data name="&gt;&gt;tabDelay.Name" xml:space="preserve">
-    <value>tabDelay</value>
-  </data>
-  <data name="&gt;&gt;tabDelay.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tabDelay.Parent" xml:space="preserve">
-    <value>TabControl1</value>
-  </data>
-  <data name="&gt;&gt;tabDelay.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>Delay</value>
   </data>
   <data name="txtRemark.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
   <data name="txtRemark.Location" type="System.Drawing.Point, System.Drawing">
-    <value>29, 82</value>
-  </data>
-  <data name="txtRemark.Size" type="System.Drawing.Size, System.Drawing">
-    <value>313, 27</value>
-  </data>
-  <data name="txtRemark.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="txtRemark.Text" xml:space="preserve">
-    <value>Automator by CYRO4S</value>
-  </data>
-  <data name="&gt;&gt;txtRemark.Name" xml:space="preserve">
-    <value>txtRemark</value>
-  </data>
-  <data name="&gt;&gt;txtRemark.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtRemark.Parent" xml:space="preserve">
-    <value>tabRemark</value>
-  </data>
-  <data name="&gt;&gt;txtRemark.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>30, 76</value>
   </data>
   <data name="Button10.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
   <data name="Button10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>29, 117</value>
-  </data>
-  <data name="Button10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>312, 50</value>
-  </data>
-  <data name="Button10.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
+    <value>30, 111</value>
   </data>
   <data name="Button10.Text" xml:space="preserve">
-    <value>添加</value>
-  </data>
-  <data name="&gt;&gt;Button10.Name" xml:space="preserve">
-    <value>Button10</value>
-  </data>
-  <data name="&gt;&gt;Button10.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Button10.Parent" xml:space="preserve">
-    <value>tabRemark</value>
-  </data>
-  <data name="&gt;&gt;Button10.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>Add</value>
   </data>
   <data name="Label12.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <data name="Label12.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Label12.Font" type="System.Drawing.Font, System.Drawing">
-    <value>微软雅黑, 8pt</value>
-  </data>
   <data name="Label12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>26, 55</value>
+    <value>27, 49</value>
   </data>
   <data name="Label12.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 20</value>
-  </data>
-  <data name="Label12.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
+    <value>158, 20</value>
   </data>
   <data name="Label12.Text" xml:space="preserve">
-    <value>在代码中插入注释</value>
-  </data>
-  <data name="&gt;&gt;Label12.Name" xml:space="preserve">
-    <value>Label12</value>
-  </data>
-  <data name="&gt;&gt;Label12.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Label12.Parent" xml:space="preserve">
-    <value>tabRemark</value>
-  </data>
-  <data name="&gt;&gt;Label12.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>Add a remark to code.</value>
   </data>
   <data name="Label13.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <data name="Label13.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Label13.Font" type="System.Drawing.Font, System.Drawing">
-    <value>微软雅黑, 11pt</value>
-  </data>
   <data name="Label13.Location" type="System.Drawing.Point, System.Drawing">
-    <value>25, 25</value>
+    <value>26, 19</value>
   </data>
   <data name="Label13.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 25</value>
-  </data>
-  <data name="Label13.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
+    <value>81, 25</value>
   </data>
   <data name="Label13.Text" xml:space="preserve">
-    <value>注释</value>
-  </data>
-  <data name="&gt;&gt;Label13.Name" xml:space="preserve">
-    <value>Label13</value>
-  </data>
-  <data name="&gt;&gt;Label13.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Label13.Parent" xml:space="preserve">
-    <value>tabRemark</value>
-  </data>
-  <data name="&gt;&gt;Label13.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>Remark</value>
   </data>
   <data name="tabRemark.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 29</value>
   </data>
   <data name="tabRemark.Size" type="System.Drawing.Size, System.Drawing">
-    <value>378, 606</value>
-  </data>
-  <data name="tabRemark.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+    <value>380, 595</value>
   </data>
   <data name="tabRemark.Text" xml:space="preserve">
-    <value>注释</value>
-  </data>
-  <data name="&gt;&gt;tabRemark.Name" xml:space="preserve">
-    <value>tabRemark</value>
-  </data>
-  <data name="&gt;&gt;tabRemark.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tabRemark.Parent" xml:space="preserve">
-    <value>TabControl1</value>
-  </data>
-  <data name="&gt;&gt;tabRemark.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="TabControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="TabControl1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
+    <value>Remark</value>
   </data>
   <data name="TabControl1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>386, 639</value>
-  </data>
-  <data name="TabControl1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;TabControl1.Name" xml:space="preserve">
-    <value>TabControl1</value>
-  </data>
-  <data name="&gt;&gt;TabControl1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TabControl1.Parent" xml:space="preserve">
-    <value>SplitContainer1.Panel2</value>
-  </data>
-  <data name="&gt;&gt;TabControl1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;SplitContainer1.Panel2.Name" xml:space="preserve">
-    <value>SplitContainer1.Panel2</value>
-  </data>
-  <data name="&gt;&gt;SplitContainer1.Panel2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;SplitContainer1.Panel2.Parent" xml:space="preserve">
-    <value>SplitContainer1</value>
-  </data>
-  <data name="&gt;&gt;SplitContainer1.Panel2.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>388, 628</value>
   </data>
   <data name="SplitContainer1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1000, 639</value>
+    <value>1004, 628</value>
   </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="SplitContainer1.SplitterDistance" type="System.Int32, mscorlib">
-    <value>610</value>
-  </data>
-  <data name="SplitContainer1.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;SplitContainer1.Name" xml:space="preserve">
-    <value>SplitContainer1</value>
-  </data>
-  <data name="&gt;&gt;SplitContainer1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;SplitContainer1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;SplitContainer1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <metadata name="mnuMain.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <data name="ToolStripButton1.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
+    <value>612</value>
   </data>
   <data name="ToolStripButton1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>67, 28</value>
+    <value>70, 28</value>
   </data>
   <data name="ToolStripButton1.Text" xml:space="preserve">
-    <value>新建</value>
-  </data>
-  <data name="ToolStripButton2.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
+    <value>New</value>
   </data>
   <data name="ToolStripButton2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>67, 28</value>
+    <value>104, 28</value>
   </data>
   <data name="ToolStripButton2.Text" xml:space="preserve">
-    <value>生成</value>
-  </data>
-  <data name="btnInfo.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="btnInfo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>28, 28</value>
-  </data>
-  <data name="btnInfo.Text" xml:space="preserve">
-    <value>&amp;Info</value>
-  </data>
-  <data name="mnuMain.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
+    <value>Generate</value>
   </data>
   <data name="mnuMain.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1000, 31</value>
-  </data>
-  <data name="mnuMain.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="mnuMain.Text" xml:space="preserve">
-    <value>ToolStrip1</value>
-  </data>
-  <data name="&gt;&gt;mnuMain.Name" xml:space="preserve">
-    <value>mnuMain</value>
-  </data>
-  <data name="&gt;&gt;mnuMain.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;mnuMain.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;mnuMain.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <metadata name="sfdMain.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>163, 17</value>
-  </metadata>
-  <data name="sfdMain.Filter" xml:space="preserve">
-    <value>Arduino 项目文件|*.ino</value>
-  </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>9, 20</value>
+    <value>1004, 31</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1000, 670</value>
-  </data>
-  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
-    <value>微软雅黑, 9pt</value>
+    <value>1004, 659</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -3497,44 +2216,5 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAABgAAAAUAAAAJgAAAGYAAABnAAAA54AAAefgAAfv8A
         AP8AwAMA
 </value>
-  </data>
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Automator</value>
-  </data>
-  <data name="&gt;&gt;ToolStripButton1.Name" xml:space="preserve">
-    <value>ToolStripButton1</value>
-  </data>
-  <data name="&gt;&gt;ToolStripButton1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ToolStripButton2.Name" xml:space="preserve">
-    <value>ToolStripButton2</value>
-  </data>
-  <data name="&gt;&gt;ToolStripButton2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnInfo.Name" xml:space="preserve">
-    <value>btnInfo</value>
-  </data>
-  <data name="&gt;&gt;btnInfo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;sfdMain.Name" xml:space="preserve">
-    <value>sfdMain</value>
-  </data>
-  <data name="&gt;&gt;sfdMain.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>MainForm</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>

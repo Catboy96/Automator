@@ -37,5 +37,10 @@ Automator
   查找 System.Drawing.Bitmap 类型的本地化资源。
 </summary>
 </member>
+<member name="P:Automator.My.Resources.Resources.UI_NEW_FILE_WARNING">
+<summary>
+  查找类似 创建新程序？所有未存储的内容将丢失。 的本地化字符串。
+</summary>
+</member>
 </members>
 </doc>

@@ -4,7 +4,7 @@
 
     'New File
     Private Sub ToolStripButton1_Click(sender As Object, e As EventArgs) Handles ToolStripButton1.Click
-        If MessageBox.Show("创建新程序？所有未存储的内容将丢失。", "", MessageBoxButtons.YesNo, MessageBoxIcon.Question) = DialogResult.Yes Then
+        If MessageBox.Show(My.Resources.UI_NEW_FILE_WARNING, "", MessageBoxButtons.YesNo, MessageBoxIcon.Question) = DialogResult.Yes Then
             txt.Clear()
         End If
     End Sub
@@ -47,7 +47,6 @@
     End Sub
 
 #End Region
-
 
 #Region "Editing"
 
@@ -98,16 +97,16 @@
 
     'Send Single Key
     Private Sub Button12_Click(sender As Object, e As EventArgs) Handles Button12.Click
-        Select Case cboSingle.SelectedItem
-            Case "左GUI"
+        Select Case cboSingle.SelectedIndex
+            Case 0
                 txt.AppendText("DigiKeyboard.sendKeyStroke(0, MOD_GUI_LEFT);" & vbCrLf)
-            Case "右GUI"
+            Case 1
                 txt.AppendText("DigiKeyboard.sendKeyStroke(0, MOD_GUI_RIGHT);" & vbCrLf)
-            Case "回车"
+            Case 2
                 txt.AppendText("DigiKeyboard.sendKeyStroke(KEY_ENTER);" & vbCrLf)
-            Case "空格"
+            Case 3
                 txt.AppendText("DigiKeyboard.sendKeyStroke(KEY_SPACE);" & vbCrLf)
-            Case "左箭头"
+            Case 4
                 txt.AppendText("DigiKeyboard.sendKeyStroke(KEY_ARROW_LEFT);" & vbCrLf)
         End Select
     End Sub
@@ -117,61 +116,61 @@
         Dim strPK, strFAK, strSAK As String
 
         'Primary Key
-        Select Case cboPK.SelectedItem
-            Case "回车"
+        Select Case cboPK.SelectedIndex
+            Case 0
                 strPK = "KEY_ENTER"
-            Case "空格"
+            Case 1
                 strPK = "KEY_SPACE"
             Case Else
                 strPK = $"KEY_{cboPK.SelectedItem}"
         End Select
 
         'First Assist Key
-        Select Case cboFAK.SelectedItem
-            Case "左Control"
+        Select Case cboFAK.SelectedIndex
+            Case 0
                 strFAK = "MOD_CONTROL_LEFT"
-            Case "左Shift"
+            Case 1
                 strFAK = "MOD_SHIFT_LEFT"
-            Case "左Alter / Option"
+            Case 2
                 strFAK = "MOD_ALT_LEFT"
-            Case "右Control"
+            Case 3
                 strFAK = "MOD_CONTROL_RIGHT"
-            Case "右Shift"
+            Case 4
                 strFAK = "MOD_SHIFT_RIGHT"
-            Case "右Alter / Option"
+            Case 5
                 strFAK = "MOD_ALT_RIGHT"
-            Case "左GUI"
+            Case 6
                 strFAK = "MOD_GUI_LEFT"
-            Case "右GUI"
+            Case 7
                 strFAK = "MOD_GUI_RIGHT"
         End Select
 
         'Secondary Assist Key
-        Select Case cboSAK.SelectedItem
-            Case "无"
+        Select Case cboSAK.SelectedIndex
+            Case 0
                 txt.AppendText($"DigiKeyboard.sendKeyStroke({strPK}, {strFAK});" & vbCrLf)
-            Case "左Control"
+            Case 1
                 strSAK = "MOD_CONTROL_LEFT"
                 txt.AppendText($"DigiKeyboard.sendKeyStroke({strPK}, {strFAK} | {strSAK});" & vbCrLf)
-            Case "左Shift"
+            Case 2
                 strSAK = "MOD_SHIFT_LEFT"
                 txt.AppendText($"DigiKeyboard.sendKeyStroke({strPK}, {strFAK} | {strSAK});" & vbCrLf)
-            Case "左Alter / Option"
+            Case 3
                 strSAK = "MOD_ALT_LEFT"
                 txt.AppendText($"DigiKeyboard.sendKeyStroke({strPK}, {strFAK} | {strSAK});" & vbCrLf)
-            Case "右Control"
+            Case 4
                 strSAK = "MOD_CONTROL_RIGHT"
                 txt.AppendText($"DigiKeyboard.sendKeyStroke({strPK}, {strFAK} | {strSAK});" & vbCrLf)
-            Case "右Shift"
+            Case 5
                 strSAK = "MOD_SHIFT_RIGHT"
                 txt.AppendText($"DigiKeyboard.sendKeyStroke({strPK}, {strFAK} | {strSAK});" & vbCrLf)
-            Case "右Alter / Option"
+            Case 6
                 strSAK = "MOD_ALT_RIGHT"
                 txt.AppendText($"DigiKeyboard.sendKeyStroke({strPK}, {strFAK} | {strSAK});" & vbCrLf)
-            Case "左GUI"
+            Case 7
                 strSAK = "MOD_GUI_LEFT"
                 txt.AppendText($"DigiKeyboard.sendKeyStroke({strPK}, {strFAK} | {strSAK});" & vbCrLf)
-            Case "右GUI"
+            Case 8
                 strSAK = "MOD_GUI_RIGHT"
                 txt.AppendText($"DigiKeyboard.sendKeyStroke({strPK}, {strFAK} | {strSAK});" & vbCrLf)
         End Select
@@ -182,7 +181,5 @@
 
 
 #End Region
-
-
 
 End Class
