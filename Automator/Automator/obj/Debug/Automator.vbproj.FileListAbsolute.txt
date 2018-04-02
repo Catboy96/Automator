@@ -7,11 +7,9 @@ C:\Users\me\source\repos\Automator\Automator\Automator\obj\Debug\Automator.vbpro
 C:\Users\me\source\repos\Automator\Automator\Automator\obj\Debug\Automator.vbproj.CoreCompileInputs.cache
 C:\Users\me\source\repos\Automator\Automator\Automator\bin\Debug\MaterialDesignColors.dll
 C:\Users\me\source\repos\Automator\Automator\Automator\bin\Debug\MaterialDesignThemes.Wpf.dll
-C:\Users\me\source\repos\Automator\Automator\Automator\bin\Debug\Newtonsoft.Json.dll
 C:\Users\me\source\repos\Automator\Automator\Automator\bin\Debug\MaterialDesignColors.pdb
 C:\Users\me\source\repos\Automator\Automator\Automator\bin\Debug\MaterialDesignThemes.Wpf.pdb
 C:\Users\me\source\repos\Automator\Automator\Automator\bin\Debug\MaterialDesignThemes.Wpf.xml
-C:\Users\me\source\repos\Automator\Automator\Automator\bin\Debug\Newtonsoft.Json.xml
 C:\Users\me\source\repos\Automator\Automator\Automator\obj\Debug\Application.baml
 C:\Users\me\source\repos\Automator\Automator\Automator\obj\Debug\Automator.vbproj.CopyComplete
 C:\Users\me\source\repos\Automator\Automator\Automator\bin\Debug\Automator.exe.config
@@ -24,3 +22,4 @@ C:\Users\me\source\repos\Automator\Automator\Automator\obj\Debug\Automator.g.res
 C:\Users\me\source\repos\Automator\Automator\Automator\obj\Debug\Automator.exe
 C:\Users\me\source\repos\Automator\Automator\Automator\obj\Debug\Automator.xml
 C:\Users\me\source\repos\Automator\Automator\Automator\obj\Debug\Automator.pdb
+C:\Users\me\source\repos\Automator\Automator\Automator\bin\Debug\ExtraTools.dll

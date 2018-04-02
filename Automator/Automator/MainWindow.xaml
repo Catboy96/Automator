@@ -14,155 +14,206 @@
         Background="{DynamicResource MaterialDesignPaper}"
         FontFamily="{StaticResource MaterialDesignFont}"
         WindowStartupLocation="CenterScreen"
-        Title="Automator" Height="450" Width="850" Icon="Resources/icon.ico">
+        Title="Automator" Height="450" Width="800" Icon="Resources/icon.ico">
     <Grid>
-        <DockPanel>
+        <materialDesign:DrawerHost BorderBrush="{DynamicResource MaterialDesignDivider}">
+            <materialDesign:DrawerHost.TopDrawerContent>
+                <StackPanel Orientation="Horizontal" Height="56">
+                    <Button Command="{x:Static materialDesign:DrawerHost.CloseDrawerCommand}"
+                        CommandParameter="{x:Static Dock.Top}"
+                        Style="{DynamicResource MaterialDesignFlatButton}"
+                        Margin="4" VerticalAlignment="Center">
+                        <materialDesign:PackIcon Kind="Close" Width="24" Height="24" Foreground="Black"/>
+                    </Button>
+                    <Separator Foreground="Black" BorderThickness="5" />
+                    <Button x:Name="btnSendGUI" Style="{DynamicResource MaterialDesignFlatButton}"
+                            Click="btnSendGUI_Click">
+                        <materialDesign:PackIcon Kind="AppleKeyboardCommand" Width="24" Height="24" Foreground="Black" />
+                    </Button>
+                    <Button x:Name="btnSendReturn" Style="{DynamicResource MaterialDesignFlatButton}"
+                            Click="btnSendReturn_Click">
+                        <materialDesign:PackIcon Kind="KeyboardReturn" Width="24" Height="24" Foreground="Black" />
+                    </Button>
+                    <Button x:Name="btnSendSpace" Style="{DynamicResource MaterialDesignFlatButton}"
+                            Click="btnSendSpace_Click">
+                        <TextBlock Text="SPACE" FontSize="18" Foreground="Black" />
+                    </Button>
+                    <Button x:Name="btnSendUp" Style="{DynamicResource MaterialDesignFlatButton}"
+                            Click="btnSendUp_Click">
+                        <materialDesign:PackIcon Kind="ArrowUp" Width="24" Height="24" Foreground="Black" />
+                    </Button>
+                    <Button x:Name="btnSendDown" Style="{DynamicResource MaterialDesignFlatButton}"
+                            Click="btnSendDown_Click">
+                        <materialDesign:PackIcon Kind="ArrowDown" Width="24" Height="24" Foreground="Black" />
+                    </Button>
+                    <Button x:Name="btnSendLeft" Style="{DynamicResource MaterialDesignFlatButton}"
+                            Click="btnSendLeft_Click">
+                        <materialDesign:PackIcon Kind="ArrowLeft" Width="24" Height="24" Foreground="Black" />
+                    </Button>
+                    <Button x:Name="btnSendRight" Style="{DynamicResource MaterialDesignFlatButton}"
+                            Click="btnSendRight_Click">
+                        <materialDesign:PackIcon Kind="ArrowRight" Width="24" Height="24" Foreground="Black" />
+                    </Button>
+                    
+                </StackPanel>
+            </materialDesign:DrawerHost.TopDrawerContent>
 
-            <ToolBarTray DockPanel.Dock="Top">
-                <ToolBar Style="{DynamicResource MaterialDesignToolBar}" ClipToBounds="False" >
+            <DockPanel>
 
-                    <!-- Loop control -->
-                    <ToggleButton x:Name="tgbLoop" Style="{StaticResource MaterialDesignSwitchToggleButton}"
+                <ToolBarTray DockPanel.Dock="Top">
+                    <ToolBar Style="{DynamicResource MaterialDesignToolBar}" ClipToBounds="False" >
+
+                        <!-- File operations -->
+                        <Button x:Name="btnInfo" ToolTip="About Automator" Click="btnInfo_Click">
+                            <materialDesign:PackIcon Kind="AutoFix" />
+                        </Button>
+                        <Separator />
+
+                        <!-- Loop control -->
+                        <ToggleButton x:Name="tgbLoop" Style="{StaticResource MaterialDesignSwitchToggleButton}"
                                   Margin="10 0 8 0">
-                        <materialDesign:PackIcon Kind="ShuffleDisabled" Width="19" Height="19"/>
-                        <materialDesign:ToggleButtonAssist.OnContent>
-                            <materialDesign:PackIcon Kind="Repeat" Width="19" Height="19"/>
-                        </materialDesign:ToggleButtonAssist.OnContent>
-                        <ToggleButton.ToolTip>
-                            <StackPanel>
-                                <TextBlock Text="Loop control" />
-                                <TextBlock Text="OFF: Program will execute once." />
-                                <TextBlock Text="ON:  Program will execute repeatly." />
-                            </StackPanel>
-                        </ToggleButton.ToolTip>
-                    </ToggleButton>
-                    <Separator />
+                            <materialDesign:PackIcon Kind="ShuffleDisabled" Width="19" Height="19"/>
+                            <materialDesign:ToggleButtonAssist.OnContent>
+                                <materialDesign:PackIcon Kind="Repeat" Width="19" Height="19"/>
+                            </materialDesign:ToggleButtonAssist.OnContent>
+                            <ToggleButton.ToolTip>
+                                <StackPanel>
+                                    <TextBlock Text="Loop control" />
+                                    <TextBlock Text="OFF: Program will execute once." />
+                                    <TextBlock Text="ON:  Program will execute repeatly." />
+                                </StackPanel>
+                            </ToggleButton.ToolTip>
+                        </ToggleButton>
+                        <Separator />
 
-                    <!-- File operations -->
-                    <Button x:Name="btnNewFile" ToolTip="New file" Click="btnNewFile_Click">
-                        <materialDesign:PackIcon Kind="File" />
-                    </Button>
-                    <Button x:Name="btnSave" ToolTip="Save" Click="btnSave_Click">
-                        <materialDesign:PackIcon Kind="ContentSave" />
-                    </Button>
-                    <Separator />
+                        <!-- File operations -->
+                        <Button x:Name="btnNewFile" ToolTip="New file" Click="btnNewFile_Click">
+                            <materialDesign:PackIcon Kind="File" />
+                        </Button>
+                        <Button x:Name="btnSave" ToolTip="Save" Click="btnSave_Click">
+                            <materialDesign:PackIcon Kind="ContentSave" />
+                        </Button>
+                        <Separator />
 
-                    <!-- Input -->
-                    <Button ToolTip="Input" x:Name="btnInput" Click="btnInput_Click">
-                        <materialDesign:PackIcon Kind="Keyboard" />
-                    </Button>
-                    <ToggleButton Style="{StaticResource MaterialDesignSwitchToggleButton}"
+                        <!-- Input -->
+                        <Button ToolTip="Input" x:Name="btnInput" Click="btnInput_Click">
+                            <materialDesign:PackIcon Kind="Keyboard" />
+                        </Button>
+                        <ToggleButton Style="{StaticResource MaterialDesignSwitchToggleButton}"
                                   x:Name="tgbReturn"  Margin="8 0 10 0">
-                        <materialDesign:PackIcon Kind="KeyboardReturn" Width="19" Height="19"/>
-                        <materialDesign:ToggleButtonAssist.OnContent>
                             <materialDesign:PackIcon Kind="KeyboardReturn" Width="19" Height="19"/>
-                        </materialDesign:ToggleButtonAssist.OnContent>
-                        <ToggleButton.ToolTip>
-                            <StackPanel>
-                                <TextBlock Text="Send RETURN after input" />
-                                <TextBlock Text="OFF: Input the specified text" />
-                                <TextBlock Text="ON:  Input the specified text and send RETURN" />
-                            </StackPanel>
-                        </ToggleButton.ToolTip>
-                    </ToggleButton>
-                    <Separator />
+                            <materialDesign:ToggleButtonAssist.OnContent>
+                                <materialDesign:PackIcon Kind="KeyboardReturn" Width="19" Height="19"/>
+                            </materialDesign:ToggleButtonAssist.OnContent>
+                            <ToggleButton.ToolTip>
+                                <StackPanel>
+                                    <TextBlock Text="Send RETURN after input" />
+                                    <TextBlock Text="OFF: Input the specified text" />
+                                    <TextBlock Text="ON:  Input the specified text and send RETURN" />
+                                </StackPanel>
+                            </ToggleButton.ToolTip>
+                        </ToggleButton>
+                        <Separator />
 
-                    <!-- Delay -->
-                    <Button ToolTip="Delay" x:Name="btnDelay" Click="btnDelay_Click">
-                        <materialDesign:PackIcon Kind="ClockFast" />
-                    </Button>
-                    <Separator/>
+                        <!-- Delay -->
+                        <Button ToolTip="Delay" x:Name="btnDelay" Click="btnDelay_Click">
+                            <materialDesign:PackIcon Kind="ClockFast" />
+                        </Button>
+                        <Separator/>
 
+                        <!-- Key stroke -->
+                        <Button ToolTip="Send key stroke" x:Name="btnKeyStroke" 
+                            Command="{x:Static materialDesign:DrawerHost.OpenDrawerCommand}"
+                            CommandParameter="{x:Static Dock.Top}">
+                            <materialDesign:PackIcon Kind="AppleKeyboardCommand" />
+                        </Button>
+                        <Separator/>
+                        
 
-                    <Button ToolTip="Send key stroke">
-                        <materialDesign:PackIcon Kind="AppleKeyboardCommand" />
-                    </Button>
-                    <Separator/>
+                        <!-- Combo keys -->
+                        <ListBox x:Name="lstKeys" SelectedIndex="0" ToolTip="Send combo keys" SelectionMode="Multiple">
+                            <ListBoxItem x:Name="keyCmd">
+                                <materialDesign:PackIcon Kind="AppleKeyboardCommand"/>
+                            </ListBoxItem>
+                            <ListBoxItem x:Name="keyOption">
+                                <materialDesign:PackIcon Kind="AppleKeyboardOption"/>
+                            </ListBoxItem>
+                            <ListBoxItem x:Name="keyControl">
+                                <materialDesign:PackIcon Kind="AppleKeyboardControl"/>
+                            </ListBoxItem>
+                            <ListBoxItem x:Name="keyShift">
+                                <materialDesign:PackIcon Kind="AppleKeyboardShift"/>
+                            </ListBoxItem>
+                        </ListBox>
+                        <ComboBox x:Name="cboKey" FontSize="16" materialDesign:HintAssist.Hint="Main Key" BorderThickness="0" >
+                            <ComboBoxItem Content="SPACE" />
+                            <ComboBoxItem Content="ENTER" />
+                            <ComboBoxItem Content="F1" />
+                            <ComboBoxItem Content="F2" />
+                            <ComboBoxItem Content="F3" />
+                            <ComboBoxItem Content="F4" />
+                            <ComboBoxItem Content="F5" />
+                            <ComboBoxItem Content="F6" />
+                            <ComboBoxItem Content="F7" />
+                            <ComboBoxItem Content="F8" />
+                            <ComboBoxItem Content="F9" />
+                            <ComboBoxItem Content="F10" />
+                            <ComboBoxItem Content="F11" />
+                            <ComboBoxItem Content="F12" />
+                            <ComboBoxItem Content="A" />
+                            <ComboBoxItem Content="B" />
+                            <ComboBoxItem Content="C" />
+                            <ComboBoxItem Content="D" />
+                            <ComboBoxItem Content="E" />
+                            <ComboBoxItem Content="F" />
+                            <ComboBoxItem Content="G" />
+                            <ComboBoxItem Content="H" />
+                            <ComboBoxItem Content="I" />
+                            <ComboBoxItem Content="J" />
+                            <ComboBoxItem Content="K" />
+                            <ComboBoxItem Content="L" />
+                            <ComboBoxItem Content="M" />
+                            <ComboBoxItem Content="N" />
+                            <ComboBoxItem Content="O" />
+                            <ComboBoxItem Content="P" />
+                            <ComboBoxItem Content="Q" />
+                            <ComboBoxItem Content="R" />
+                            <ComboBoxItem Content="S" />
+                            <ComboBoxItem Content="T" />
+                            <ComboBoxItem Content="U" />
+                            <ComboBoxItem Content="V" />
+                            <ComboBoxItem Content="W" />
+                            <ComboBoxItem Content="X" />
+                            <ComboBoxItem Content="Y" />
+                            <ComboBoxItem Content="Z" />
+                            <ComboBoxItem Content="0" />
+                            <ComboBoxItem Content="1" />
+                            <ComboBoxItem Content="2" />
+                            <ComboBoxItem Content="3" />
+                            <ComboBoxItem Content="4" />
+                            <ComboBoxItem Content="5" />
+                            <ComboBoxItem Content="6" />
+                            <ComboBoxItem Content="7" />
+                            <ComboBoxItem Content="8" />
+                            <ComboBoxItem Content="9" />
+                        </ComboBox>
+                        <Button x:Name="btnAdd" ToolTip="Add to code" Click="btnAdd_Click">
+                            <materialDesign:PackIcon Kind="Plus" />
+                        </Button>
 
+                    </ToolBar>
+                </ToolBarTray >
 
-
-                    <ListBox SelectedIndex="0" ToolTip="Send combo keys" SelectionMode="Multiple">
-                        <ListBoxItem>
-                            <materialDesign:PackIcon Kind="AppleKeyboardCommand"/>
-                        </ListBoxItem>
-                        <ListBoxItem>
-                            <materialDesign:PackIcon Kind="AppleKeyboardOption"/>
-                        </ListBoxItem>
-                        <ListBoxItem >
-                            <materialDesign:PackIcon Kind="AppleKeyboardControl"/>
-                        </ListBoxItem>
-                        <ListBoxItem>
-                            <materialDesign:PackIcon Kind="AppleKeyboardShift"/>
-                        </ListBoxItem>
-                    </ListBox>
-                    <ComboBox Text="..." FontSize="16">
-                        <ComboBoxItem Content="SPACE" />
-                        <ComboBoxItem Content="RETURN" />
-                        <ComboBoxItem Content="F1" />
-                        <ComboBoxItem Content="F2" />
-                        <ComboBoxItem Content="F3" />
-                        <ComboBoxItem Content="F4" />
-                        <ComboBoxItem Content="F5" />
-                        <ComboBoxItem Content="F6" />
-                        <ComboBoxItem Content="F7" />
-                        <ComboBoxItem Content="F8" />
-                        <ComboBoxItem Content="F9" />
-                        <ComboBoxItem Content="F10" />
-                        <ComboBoxItem Content="F11" />
-                        <ComboBoxItem Content="F12" />
-                        <ComboBoxItem Content="A" />
-                        <ComboBoxItem Content="B" />
-                        <ComboBoxItem Content="C" />
-                        <ComboBoxItem Content="D" />
-                        <ComboBoxItem Content="E" />
-                        <ComboBoxItem Content="F" />
-                        <ComboBoxItem Content="G" />
-                        <ComboBoxItem Content="H" />
-                        <ComboBoxItem Content="I" />
-                        <ComboBoxItem Content="J" />
-                        <ComboBoxItem Content="K" />
-                        <ComboBoxItem Content="L" />
-                        <ComboBoxItem Content="M" />
-                        <ComboBoxItem Content="N" />
-                        <ComboBoxItem Content="O" />
-                        <ComboBoxItem Content="P" />
-                        <ComboBoxItem Content="Q" />
-                        <ComboBoxItem Content="R" />
-                        <ComboBoxItem Content="S" />
-                        <ComboBoxItem Content="T" />
-                        <ComboBoxItem Content="U" />
-                        <ComboBoxItem Content="V" />
-                        <ComboBoxItem Content="W" />
-                        <ComboBoxItem Content="X" />
-                        <ComboBoxItem Content="Y" />
-                        <ComboBoxItem Content="Z" />
-                        <ComboBoxItem Content="0" />
-                        <ComboBoxItem Content="1" />
-                        <ComboBoxItem Content="2" />
-                        <ComboBoxItem Content="3" />
-                        <ComboBoxItem Content="4" />
-                        <ComboBoxItem Content="5" />
-                        <ComboBoxItem Content="6" />
-                        <ComboBoxItem Content="7" />
-                        <ComboBoxItem Content="8" />
-                        <ComboBoxItem Content="9" />
-                    </ComboBox>
-                    <Button ToolTip="Add to code">
-                        <materialDesign:PackIcon Kind="Plus" />
-                    </Button>
-
-                </ToolBar>
-            </ToolBarTray >
-
-            <Grid Background="White">
-                <TextBox Style="{StaticResource MaterialDesignTextAreaTextBox}" Margin="8,8,8,8" 
+                <Grid Background="White">
+                    <TextBox Style="{StaticResource MaterialDesignTextAreaTextBox}" Margin="8,8,8,8" 
                          x:Name="txtCode"
                          AcceptsReturn="True" TextWrapping="Wrap"
                          VerticalScrollBarVisibility="Auto" 
                          materialDesign:HintAssist.Hint="Code preview"
                          FontFamily="Consolas" FontSize="16"/>
-            </Grid>
+                </Grid>
 
-        </DockPanel>
+            </DockPanel>
+        </materialDesign:DrawerHost>
     </Grid>
 </Window>
