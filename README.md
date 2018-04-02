@@ -1,21 +1,22 @@
 ![](https://raw.githubusercontent.com/CYRO4S/Automator/master/Automator/Automator/Resources/64.png)
-# Automator  
+# Automator 2 
   
-Automator is a Windows application help you easily write "Ducky Script" for your Digispark Arduino chips.  
-As everyone knows, Ducky Script can not easily convert into Digispark Arduino project. But with this you can easily write USB HID keyboard program for Digispark chips.  
+Automator is a Windows application helps you easily write "Ducky Script" for your Digispark Arduino chips.  
+As everyone knows, Ducky Script can not easily convert into Digispark Arduino project.   
+But with this you can easily write USB HID keyboard payload for Digispark chips.  
+
+## Screenshot
+![](https://raw.githubusercontent.com/CYRO4S/Automator/master/Automator/Automator/Resources/automator_2_preview.png)
     
 ## Features  
-* Delay for 500ms? Input 500 & Click "Add"
-* Press Ctrl+Shift+Enter? Select the keys from list & click "Add"
-* Print "Hello Digispark?" Type "Hello Digispark?" & Click "Add"
-* ...And more    
-  
-*Screenshots appended: (In Simplified Chinese. English is now supported.)*  
-![](https://raw.githubusercontent.com/CYRO4S/Automator/master/Automator/Automator/Resources/Automator_zh-CN.PNG)
+* Add code snippets in one click.
+* Save as Arduino's `.ino` file.
+* ... And more    
   
 ## Compiling  
-* .Net 4.0  
-* Visual Studio 2015  
+* .Net Framework 4.5  
+* Visual Studio 2017  
   
-## LICENSE
-MIT
+## Open source licenses
+* MaterialDesignInXamlToolkit: [View on Github](https://github.com/ButchersBoy/MaterialDesignInXamlToolkit)
+* NewtonSoft.Json: [View on Github](https://github.com/JamesNK/Newtonsoft.Json)
