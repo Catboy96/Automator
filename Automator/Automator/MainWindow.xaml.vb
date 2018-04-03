@@ -40,14 +40,14 @@ Class MainWindow
 
     Private Sub btnInput_Click(sender As Object, e As RoutedEventArgs)
         If tgbReturn.IsChecked = True Then
-            txtCode.AppendText(vbCrLf & "DigiKeyboard.println("""");")
+            InsertString(vbCrLf & "DigiKeyboard.println("""");")
         Else
-            txtCode.AppendText(vbCrLf & "DigiKeyboard.print("""");")
+            InsertString(vbCrLf & "DigiKeyboard.print("""");")
         End If
     End Sub
 
     Private Sub btnDelay_Click(sender As Object, e As RoutedEventArgs)
-        txtCode.AppendText(vbCrLf & "DigiKeyboard.delay();")
+        InsertString(vbCrLf & "DigiKeyboard.delay();")
     End Sub
 
     Private Sub btnAdd_Click(sender As Object, e As RoutedEventArgs)
@@ -82,38 +82,45 @@ Class MainWindow
             End If
         End If
         strAdd &= ");"
-        txtCode.AppendText(vbCrLf & strAdd)
+        InsertString(vbCrLf & strAdd)
     End Sub
 
     Private Sub btnSendGUI_Click(sender As Object, e As RoutedEventArgs)
-        txtCode.AppendText(vbCrLf & "DigiKeyboard.sendKeyStroke(0, MOD_GUI_LEFT);")
+        InsertString(vbCrLf & "DigiKeyboard.sendKeyStroke(0, MOD_GUI_LEFT);")
     End Sub
 
     Private Sub btnSendReturn_Click(sender As Object, e As RoutedEventArgs)
-        txtCode.AppendText(vbCrLf & "DigiKeyboard.sendKeyStroke(KEY_ENTER);")
+        InsertString(vbCrLf & "DigiKeyboard.sendKeyStroke(KEY_ENTER);")
     End Sub
 
     Private Sub btnSendSpace_Click(sender As Object, e As RoutedEventArgs)
-        txtCode.AppendText(vbCrLf & "DigiKeyboard.sendKeyStroke(KEY_SPACE);")
+        InsertString(vbCrLf & "DigiKeyboard.sendKeyStroke(KEY_SPACE);")
     End Sub
 
     Private Sub btnSendDown_Click(sender As Object, e As RoutedEventArgs)
-        txtCode.AppendText(vbCrLf & "DigiKeyboard.sendKeyStroke(KEY_ARROW_DOWN);")
+        InsertString(vbCrLf & "DigiKeyboard.sendKeyStroke(KEY_ARROW_DOWN);")
     End Sub
 
     Private Sub btnSendUp_Click(sender As Object, e As RoutedEventArgs)
-        txtCode.AppendText(vbCrLf & "DigiKeyboard.sendKeyStroke(KEY_ARROW_UP);")
+        InsertString(vbCrLf & "DigiKeyboard.sendKeyStroke(KEY_ARROW_UP);")
     End Sub
 
     Private Sub btnSendLeft_Click(sender As Object, e As RoutedEventArgs)
-        txtCode.AppendText(vbCrLf & "DigiKeyboard.sendKeyStroke(KEY_ARROW_LEFT);")
+        InsertString(vbCrLf & "DigiKeyboard.sendKeyStroke(KEY_ARROW_LEFT);")
     End Sub
 
     Private Sub btnSendRight_Click(sender As Object, e As RoutedEventArgs)
-        txtCode.AppendText(vbCrLf & "DigiKeyboard.sendKeyStroke(KEY_ARROW_RIGHT);")
+        InsertString(vbCrLf & "DigiKeyboard.sendKeyStroke(KEY_ARROW_RIGHT);")
     End Sub
 
     Private Sub btnInfo_Click(sender As Object, e As RoutedEventArgs)
         Process.Start("https://github.com/CYRO4S/Automator")
+    End Sub
+
+    Private Sub InsertString(ByVal Prompt As String)
+        Dim index As Integer = txtCode.SelectionStart
+        txtCode.Text = txtCode.Text.Insert(index, Prompt)
+        txtCode.SelectionStart = index + Prompt.Length
+        txtCode.Focus()
     End Sub
 End Class
