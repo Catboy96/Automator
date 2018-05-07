@@ -1,6 +1,12 @@
-![](https://raw.githubusercontent.com/CYRO4S/Automator/master/Automator/Automator/Resources/64.png)
-# Automator 2 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/CYRO4S/Automator/master/assets/automator_icon.png" width="132" height="132" alt="Automator_LOGO">
+  <img src="https://raw.githubusercontent.com/CYRO4S/Automator/master/assets/automator_text.png" alt="Gekko">
+  <br />
+</p>
+
+<p align="center">⌨ Digispark™ Rubber Ducky IDE for Windows. <br /></p>
   
+## Intro
 Automator is a Windows application helps you easily write "Ducky Script" for your Digispark Arduino chips.  
 As everyone knows, Ducky Script can not easily convert into Digispark Arduino project.   
 But with this you can easily write USB HID keyboard payload for Digispark chips.  
