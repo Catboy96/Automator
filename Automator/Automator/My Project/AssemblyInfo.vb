@@ -12,9 +12,9 @@ Imports System.Windows
 '查看程序集特性的值
 
 <Assembly: AssemblyTitle("Automator")>
-<Assembly: AssemblyDescription("Digispark™ HID Keyboard Automator")>
+<Assembly: AssemblyDescription("Digispark™ Rubber Ducky IDE")>
 <Assembly: AssemblyCompany("CYRO4S")>
-<Assembly: AssemblyProduct("Digispark™ HID Keyboard Automator")>
+<Assembly: AssemblyProduct("Digispark™ Rubber Ducky IDE")>
 <Assembly: AssemblyCopyright("©2017-2018 CYRO4S. All rights reserved.")>
 <Assembly: AssemblyTrademark("Automator")>
 <Assembly: ComVisible(false)>
@@ -55,5 +55,5 @@ Imports System.Windows
 ' 方法是按如下所示使用“*”: :
 ' <Assembly: AssemblyVersion("1.0.*")>
 
-<Assembly: AssemblyVersion("2.0.1.1437")>
-<Assembly: AssemblyFileVersion("2.0.1.1437")>
+<Assembly: AssemblyVersion("2.1.0.0507")>
+<Assembly: AssemblyFileVersion("2.1.0.0507")>

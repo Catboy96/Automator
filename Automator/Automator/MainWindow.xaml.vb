@@ -3,6 +3,8 @@ Imports ExtraTools
 
 Class MainWindow
 
+#Region "File operations"
+
     Private Sub btnNewFile_Click(sender As Object, e As RoutedEventArgs)
         If txtCode.Text <> "" Then
             DialogBox.Show("Create a new file?", "All unsaved changes will be lost.", "YES", "NO")
@@ -31,11 +33,25 @@ Class MainWindow
             .Title = "Save Arduino code to..."
         End With
         If sfd.ShowDialog() = Forms.DialogResult.OK Then
-            Dim sw As New IO.StreamWriter(sfd.FileName, False, Text.Encoding.UTF8)
+            Dim strDir As String = IO.Path.GetDirectoryName(sfd.FileName) & "\" & IO.Path.GetFileNameWithoutExtension(sfd.FileName)
+            Dim strFileName As String = IO.Path.GetFileName(sfd.FileName)
+            IO.Directory.CreateDirectory(strDir)
+            Dim sw As New IO.StreamWriter(strDir & "\" & strFileName, False, Text.Encoding.UTF8)
             sw.Write(strOut)
             sw.Close()
             sw.Dispose()
         End If
+    End Sub
+
+#End Region
+
+#Region "Insert codes"
+
+    Private Sub InsertString(ByVal Prompt As String)
+        Dim index As Integer = txtCode.SelectionStart
+        txtCode.Text = txtCode.Text.Insert(index, Prompt)
+        txtCode.SelectionStart = index + Prompt.Length
+        txtCode.Focus()
     End Sub
 
     Private Sub btnInput_Click(sender As Object, e As RoutedEventArgs)
@@ -113,14 +129,14 @@ Class MainWindow
         InsertString(vbCrLf & "DigiKeyboard.sendKeyStroke(KEY_ARROW_RIGHT);")
     End Sub
 
-    Private Sub btnInfo_Click(sender As Object, e As RoutedEventArgs)
-        Process.Start("https://github.com/CYRO4S/Automator")
+#End Region
+
+#Region "Import ducky script"
+
+    Private Sub btnImport_Click(sender As Object, e As RoutedEventArgs)
+
     End Sub
 
-    Private Sub InsertString(ByVal Prompt As String)
-        Dim index As Integer = txtCode.SelectionStart
-        txtCode.Text = txtCode.Text.Insert(index, Prompt)
-        txtCode.SelectionStart = index + Prompt.Length
-        txtCode.Focus()
-    End Sub
+#End Region
+
 End Class

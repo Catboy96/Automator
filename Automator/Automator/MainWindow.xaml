@@ -63,8 +63,8 @@
                 <ToolBarTray DockPanel.Dock="Top">
                     <ToolBar Style="{DynamicResource MaterialDesignToolBar}" ClipToBounds="False" >
 
-                        <!-- File operations -->
-                        <Button x:Name="btnInfo" ToolTip="About Automator" Click="btnInfo_Click">
+                        <!-- Import Ducky Script -->
+                        <Button x:Name="btnImport" ToolTip="Import Ducky Script" Click="btnImport_Click">
                             <materialDesign:PackIcon Kind="AutoFix" />
                         </Button>
                         <Separator />
