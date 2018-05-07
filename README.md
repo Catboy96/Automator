@@ -4,7 +4,7 @@
   <br />
 </p>
 
-<p align="center">⌨ Digispark™ Rubber Ducky IDE for Windows. <br /></p>
+<p align="center">⌨ Digispark™ Rubber Ducky code editor for Windows. <br /></p>
   
 ## Intro
 Automator is a Windows application helps you easily write "Ducky Script" for your Digispark Arduino chips.  
