@@ -134,6 +134,7 @@ Class MainWindow
 #Region "Import ducky script"
 
     Private Sub btnImport_Click(sender As Object, e As RoutedEventArgs)
+        Dim dukStr As New DuckyScript
 
     End Sub
 
