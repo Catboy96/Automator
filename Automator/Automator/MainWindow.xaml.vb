@@ -60,10 +60,14 @@ Class MainWindow
         Else
             InsertString(vbCrLf & "DigiKeyboard.print("""");")
         End If
+        txtCode.SelectionStart -= 3
+        txtCode.Focus()
     End Sub
 
     Private Sub btnDelay_Click(sender As Object, e As RoutedEventArgs)
         InsertString(vbCrLf & "DigiKeyboard.delay();")
+        txtCode.SelectionStart -= 2
+        txtCode.Focus()
     End Sub
 
     Private Sub btnAdd_Click(sender As Object, e As RoutedEventArgs)

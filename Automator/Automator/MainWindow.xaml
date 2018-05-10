@@ -14,7 +14,33 @@
         Background="{DynamicResource MaterialDesignPaper}"
         FontFamily="{StaticResource MaterialDesignFont}"
         WindowStartupLocation="CenterScreen"
-        Title="Automator" Height="450" Width="800" Icon="Resources/icon.ico">
+        Title="Automator" Icon="Resources/icon.ico" Height="Auto" Width="Auto">
+    <!-- Height="450" Width="800" -->
+    
+    <!-- Key bindings -->
+    <Window.Resources>
+        <RoutedUICommand x:Key="NewFile" />
+        <RoutedUICommand x:Key="SaveFile" />
+        <RoutedUICommand x:Key="ImportDuckyScript" />
+        <RoutedUICommand x:Key="InsertPrint" />
+        <RoutedUICommand x:Key="InsertDelay"/>
+    </Window.Resources>
+    <Window.InputBindings>
+        <KeyBinding Modifiers="Ctrl" Key="I" Command="{StaticResource ImportDuckyScript}" />
+        <KeyBinding Modifiers="Ctrl" Key="N" Command="{StaticResource NewFile}" />
+        <KeyBinding Modifiers="Ctrl" Key="S" Command="{StaticResource SaveFile}" />
+        <KeyBinding Modifiers="Alt" Key="P" Command="{StaticResource InsertPrint}" />
+        <KeyBinding Modifiers="Alt" Key="D" Command="{StaticResource InsertDelay}" />
+    </Window.InputBindings>
+    <Window.CommandBindings>
+        <CommandBinding Command="{StaticResource ImportDuckyScript}" Executed="btnImport_Click" />
+        <CommandBinding Command="{StaticResource NewFile}" Executed="btnNewFile_Click" />
+        <CommandBinding Command="{StaticResource SaveFile}" Executed="btnSave_Click" />
+        <CommandBinding Command="{StaticResource InsertPrint}" Executed="btnInput_Click" />
+        <CommandBinding Command="{StaticResource InsertDelay}" Executed="btnDelay_Click" />
+    </Window.CommandBindings>
+    
+    <!-- Main window -->
     <Grid>
         <materialDesign:DrawerHost BorderBrush="{DynamicResource MaterialDesignDivider}">
             <materialDesign:DrawerHost.TopDrawerContent>
@@ -61,11 +87,20 @@
             <DockPanel>
 
                 <ToolBarTray DockPanel.Dock="Top">
-                    <ToolBar Style="{DynamicResource MaterialDesignToolBar}" ClipToBounds="False" >
+                    <ToolBar Style="{DynamicResource MaterialDesignToolBar}" ClipToBounds="False">
 
                         <!-- Import Ducky Script -->
-                        <Button x:Name="btnImport" ToolTip="Import Ducky Script" Click="btnImport_Click">
+                        <Button x:Name="btnImport" ToolTip="(Ctrl+I) Import Ducky Script" Click="btnImport_Click">
                             <materialDesign:PackIcon Kind="AutoFix" />
+                        </Button>
+                        <Separator />
+
+                        <!-- File operations -->
+                        <Button x:Name="btnNewFile" ToolTip="(Ctrl+N) New file" Click="btnNewFile_Click">
+                            <materialDesign:PackIcon Kind="File" />
+                        </Button>
+                        <Button x:Name="btnSave" ToolTip="(Ctrl+S) Save" Click="btnSave_Click">
+                            <materialDesign:PackIcon Kind="ContentSave" />
                         </Button>
                         <Separator />
 
@@ -86,17 +121,8 @@
                         </ToggleButton>
                         <Separator />
 
-                        <!-- File operations -->
-                        <Button x:Name="btnNewFile" ToolTip="New file" Click="btnNewFile_Click">
-                            <materialDesign:PackIcon Kind="File" />
-                        </Button>
-                        <Button x:Name="btnSave" ToolTip="Save" Click="btnSave_Click">
-                            <materialDesign:PackIcon Kind="ContentSave" />
-                        </Button>
-                        <Separator />
-
                         <!-- Input -->
-                        <Button ToolTip="Input" x:Name="btnInput" Click="btnInput_Click">
+                        <Button ToolTip="(Alt+I) Input" x:Name="btnInput" Click="btnInput_Click">
                             <materialDesign:PackIcon Kind="Keyboard" />
                         </Button>
                         <ToggleButton Style="{StaticResource MaterialDesignSwitchToggleButton}"
@@ -116,7 +142,7 @@
                         <Separator />
 
                         <!-- Delay -->
-                        <Button ToolTip="Delay" x:Name="btnDelay" Click="btnDelay_Click">
+                        <Button ToolTip="(Alt+D) Delay" x:Name="btnDelay" Click="btnDelay_Click">
                             <materialDesign:PackIcon Kind="ClockFast" />
                         </Button>
                         <Separator/>
