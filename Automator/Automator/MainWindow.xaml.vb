@@ -5,6 +5,8 @@ Class MainWindow
 
 #Region "File operations"
 
+    Private UTF8NoBOM As System.Text.Encoding = New System.Text.UTF8Encoding(False)
+
     Private Sub btnNewFile_Click(sender As Object, e As RoutedEventArgs)
         If txtCode.Text <> "" Then
             DialogBox.Show("Create a new file?", "All unsaved changes will be lost.", "YES", "NO")
@@ -36,7 +38,7 @@ Class MainWindow
             Dim strDir As String = IO.Path.GetDirectoryName(sfd.FileName) & "\" & IO.Path.GetFileNameWithoutExtension(sfd.FileName)
             Dim strFileName As String = IO.Path.GetFileName(sfd.FileName)
             IO.Directory.CreateDirectory(strDir)
-            Dim sw As New IO.StreamWriter(strDir & "\" & strFileName, False, Text.Encoding.UTF8)
+            Dim sw As New IO.StreamWriter(strDir & "\" & strFileName, False, UTF8NoBOM)
             sw.Write(strOut)
             sw.Close()
             sw.Dispose()
